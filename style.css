@@ -1,0 +1,25 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    text-align: center;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+/* Ocultar el contenido en dispositivos no móviles */
+@media (min-width: 768px) {
+    .container {
+        display: none;
+    }
+}
