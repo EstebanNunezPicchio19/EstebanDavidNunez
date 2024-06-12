@@ -37,3 +37,496 @@ body {
   .card-text {
     margin-bottom: 0;
   }  
+
+  /* RESET */
+* {
+  font-family: "Raleway", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/*MEDIA QUERY MOBILE*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .title {
+    font-size: 25px;
+    color: #000000;
+    text-align: left;
+  }
+  .sub-title {
+    font-weight: 350;
+    font-size: 20px;
+    text-align: left;
+  }
+  p {
+    font-size: 15px;
+    text-align: justify;
+    width: 100%;
+  }
+  .navegator {
+    font-size: 10px;
+    font-size list style: none;
+    font-size font-size: 13px;
+    font-size align-items: center;
+  }
+  .navegadores {
+    position: static;
+  }
+  .platillo {
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    width: 49px;
+  }
+  .contenido-principal {
+    margin: 30px 0 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+  }
+  .cont-logo {
+    width: 150px;
+    padding: 1rem;
+    justify-content: center;
+  }
+  .carousel-inner {
+    height: 200px;
+  }
+  .carousel-item {
+    height: 200px;
+  }
+}
+
+/*MEDIA QUERY TABLET*/
+@media (min-width: 481px) and (max-width: 780px) {
+  .contenido-principal {
+    margin: 30px 0 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+  }
+  .cont-logo {
+    width: 150px;
+    padding: 1rem;
+    justify-content: center img;
+    justify-content width: 100%;
+  }
+  .title {
+    font-size: 30px;
+    color: #000000;
+    text-align: left;
+  }
+  .sub-title {
+    font-weight: 400px;
+    font-size: 20px;
+    text-align: left;
+  }
+  p {
+    font-size: 15px;
+    text-align: justify;
+    width: 100%;
+  }
+  .navegator nav ul {
+    display: flex;
+    gap: 1em li;
+    gap list style: none;
+    gap font-size: 13px;
+  }
+  .carousel-inner {
+    height: 250px;
+  }
+  .carousel-item {
+    height: 200px;
+  }
+}
+.bi-instagram {
+  color: #910583;
+}
+
+.bi-whatsapp {
+  color: #2c7a41;
+}
+
+.bi-facebook {
+  color: rgb(5, 5, 74);
+}
+
+/* Header */
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-style: italic;
+}
+
+.musical {
+  background-image: url(../assets/violino.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: initial;
+}
+
+.navegator {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+}
+.navegator nav {
+  background-color: #ffffff;
+}
+.navegator nav ul {
+  display: flex;
+  gap: 1em;
+}
+.navegator nav ul li {
+  list-style: none;
+}
+.navegator nav ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+.nav-link{
+  color: black;
+}
+
+/*Logo*/
+.cont-logo {
+  width: 150px;
+  padding: 1rem;
+  justify-content: right;
+}
+.cont-logo img {
+  width: 100%;
+}
+
+.ruben {
+  height: 20rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.clara {
+  height: 20rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.carina {
+  width: 50%;
+}
+.carina p {
+  font-size: 4rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+/*FORM-BANNER*/
+.sebastian {
+  margin-left: 350px;
+  margin-bottom: 100px;
+  width: 40%;
+  background-color: rgba(143, 86, 86, 0.3215686275);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.camila {
+  margin-left: 350px;
+  margin-bottom: 100px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eugenia {
+  background-color: #743a11;
+  color: #ffffff;
+  padding: 0.4rem;
+  margin: 0.6rem;
+  width: 30%;
+  border-radius: 6px;
+  border: none;
+}
+
+/* Main */
+.contenido-principal {
+  margin: 30px 0 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: justify;
+}
+
+.contenido-principalis {
+  margin: 30px 0 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: justify;
+}
+
+.mainmarging {
+  margin-top: 2rem;
+}
+
+.title {
+  font-weight: 400;
+  color: #050505;
+  text-align: center;
+}
+
+.sub-title {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+}
+
+.violoncello {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  flex-flow: wrap;
+  text-decoration: none;
+}
+
+a {
+  color: #050505;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cac9c9;
+}
+
+.violin {
+  width: 250px;
+  height: 18rem;
+  overflow: hidden;
+  text-align: center;
+}
+.violin img {
+  width: 100%;
+  animation-name: violinmovie;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes violinmovie {
+  0% {
+    opacity: 0%;
+    transform: translateY(0px);
+  }
+  50% {
+    opacity: 0, 5%;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+p {
+  line-height: 36px;
+}
+
+.border {
+  border: 1px solid #000000;
+}
+
+/*GALERIA*/
+.title-galeria {
+  letter-spacing: 7px;
+}
+
+.pentagrama {
+  display: flex;
+  padding-top: 30px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.pentagrama img {
+  width: 10%;
+  height: 60px;
+  overflow: hidden;
+  align-items: center;
+}
+
+.texto {
+  width: 50%;
+  text-align: justify;
+  align-items: center;
+}
+
+.text {
+  width: 50%;
+  text-align: justify;
+  align-items: center;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #743a11;
+}
+
+footer img {
+  width: 2rem;
+  margin-bottom: 60px;
+}
+
+/*CARRUSEL Y BANNERS DE PAGINAS*/
+.carousel-item {
+  height: 300;
+}
+
+.carousel-inner {
+  height: 400px;
+}
+
+.navbar1 {
+  background-image: url(../assets/xilo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: initial;
+}
+
+.navbar2 {
+  background-image: url(../assets/cocobongo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: initial;
+}
+
+.navbar3 {
+  background-image: url(../assets/consultorio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: initial;
+}
+
+.navbar4 {
+  background-image: url(../assets/violino2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: initial;
+}
+
+/*MEDIA QUERY MOBILE*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .title {
+    font-size: 25px;
+    color: #000000;
+    text-align: left;
+  }
+  .sub-title {
+    font-weight: 350;
+    font-size: 20px;
+    text-align: left;
+  }
+  p {
+    font-size: 15px;
+    text-align: justify;
+    width: 100%;
+  }
+  .navegator {
+    font-size: 10px nav ul li;
+    font-size list-style: none;
+    font-size font-size: 13px;
+    font-size align-items: center;
+  }
+  .navegadores {
+    position: static;
+  }
+  .platillo {
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    width: 49px;
+  }
+  .contenido-principal {
+    margin: 30px 0 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+  }
+  .cont-logo {
+    width: 150px;
+    padding: 1rem;
+    justify-content: center;
+  }
+  .carousel-inner {
+    height: 200px;
+  }
+  .carousel-item {
+    height: 200px;
+  }
+
+}
+/*MEDIA QUERY TABLET*/
+@media (min-width: 481px) and (max-width: 780px) {
+  .contenido-principal {
+    margin: 30px 0 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+  }
+  .cont-logo {
+    width: 150px;
+    padding: 1rem;
+    justify-content: center img;
+    justify-content-width: 100%;
+  }
+  .title {
+    font-size: 30px;
+    color: #000000;
+    text-align: left;
+  }
+  .sub-title {
+    font-weight: 400px;
+    font-size: 20px;
+    text-align: left;
+  }
+  p {
+    font-size: 15px;
+    text-align: justify;
+    width: 100%;
+  }
+  .navegator nav ul {
+    display: flex;
+    gap: 1em li;
+    gap list-style: none;
+    gap font-size: 13px;
+  }
+  .carousel-inner {
+    height: 250px;
+  }
+  .carousel-item {
+    height: 200px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
