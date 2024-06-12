@@ -1,25 +1,39 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-}
-
-.card {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.card-header {
-    text-align: center;
-}
-
-.btn-block {
-    width: 100%;
-}
-
-/* Ocultar el contenido en dispositivos no móviles */
-@media (min-width: 768px) {
-    .container {
-        display: none;
-    }
-}
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .appointment {
+    margin-bottom: 20px;
+  }
+  
+  /* Aquí los estilos para las tarjetas de turno */
+  
+  .card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    margin-bottom: 0;
+  }  
