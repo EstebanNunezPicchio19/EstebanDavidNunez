@@ -1,17 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .appointment {
-    margin-bottom: 20px;
-  }
+  background-color: #f8f9fa;
+}
+
+h1 {
+  text-align: center;
+}
+
+#appointmentsList {
+  max-height: 300px;
+  overflow-y: auto;
+}
   
   /* Aquí los estilos para las tarjetas de turno */
   
